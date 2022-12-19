@@ -10,7 +10,7 @@ const server=app.listen(5001,()=>{
 })
 const io = socket(server, {
     cors: {
-      origin: "http://localhost:3000",
+      origin: "https://frontchartbot.vercel.app",
       credentials: true,
     },
   });
